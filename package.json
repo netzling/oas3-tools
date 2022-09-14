@@ -1,7 +1,7 @@
 {
-  "name": "@paxet/oas3-tools",
+  "name": "@netzling/oas3-tools-datadog",
   "version": "2.3.1",
-  "description": "Swagger-UI and API Rest Routing for Open API v3.",
+  "description": "Swagger-UI and API Rest Routing for Open API v3 with datadog support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -17,16 +17,20 @@
       "name": "Paxet s.r.o.",
       "email": "info@paxet.io",
       "url": "https://www.paxet.io"
+    },
+    {
+      "name": "Jan Wilhelm",
+      "email": "netzling@gmail.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/paxet-io/oas3-tools/issues"
+    "url": "https://github.com/netzling/oas3-tools-datadog/issues"
   },
-  "homepage": "https://github.com/paxet-io/oas3-tools#readme",
+  "homepage": "https://github.com/netzling/oas3-tools-datadog#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:paxet-io/oas3-tools.git"
+    "url": "git@github.com:netzling/oas3-tools-datadog.git"
   },
   "keywords": [
     "api",

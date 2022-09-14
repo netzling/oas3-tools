@@ -43,6 +43,7 @@ export class ExpressAppConfig {
         this.app.use(swaggerUi.serveStaticContent());
 
         this.app.use(OpenApiValidator.middleware(this.openApiValidatorOptions));
+        if(appOptions.datadog) { this.app.use(appOptions.datadog) }
         this.app.use(new SwaggerParameters().checkParameters());
         this.app.use(new SwaggerRouter().initialize(this.routingOptions));
 
